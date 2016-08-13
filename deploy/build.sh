@@ -21,7 +21,7 @@ else
     exit 1
 fi
 
-git checkout master
+git checkout registry
 
 # path to the maploom build that will be used
 if [ $JENKINS_MODE == true ]; then
@@ -141,7 +141,7 @@ if [[ $(git status) != *nothing* ]]; then
     COMMIT_MSG="developer deployed using deploy script with dev flag."
   fi
   git commit -m "$COMMIT_MSG"
-  git push origin master
+  git push origin registry
 fi
 
 echo 'done!'
