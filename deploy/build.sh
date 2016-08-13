@@ -141,7 +141,7 @@ if [[ $(git status) != *nothing* ]]; then
     COMMIT_MSG="developer deployed using deploy script with dev flag."
   fi
   git commit -m "$COMMIT_MSG"
-  git push origin registry
+  git push terranodo registry
 fi
 
 echo 'done!'
