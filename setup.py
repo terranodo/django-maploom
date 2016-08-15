@@ -5,7 +5,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 setup(
     name='django-exchange-maploom',
-    version='1.5.3',
+    version='1.5.4',
     author='GeoNode Development Team - Prominent Edge, Terranodo, Boundless Spatial',
     author_email='geonode-devel@lists.osgeo.org',
     url='https://github.com/ROGUE-JCTD/django-maploom',
