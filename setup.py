@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 setup(
-    name='django-exchange-maploom',
+    name='django-terranodo-maploom',
     version='1.5.5',
     author='GeoNode Development Team - Prominent Edge, Terranodo, Boundless Spatial',
     author_email='geonode-devel@lists.osgeo.org',
